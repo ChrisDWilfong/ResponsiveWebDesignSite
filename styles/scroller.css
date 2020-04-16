@@ -1,0 +1,32 @@
+﻿.itemBorder {
+    border: solid 1px #dff3ff;
+    background-color: #faf3ce;
+}
+
+.item {
+    margin: 4px;
+    width: 175px;
+    font-family: Oswald;
+    font-size: small;
+    border:none;
+}
+
+.itemScore {
+    width: 100%;
+    font-family: Oswald;
+    font-size: small;
+    font-weight: bold;
+    text-align: right;
+    color: red;
+    border: none;
+}
+
+.coverFlowRotator .item, .carouselRotator .item {
+    border: 0;
+    margin: 0;
+}
+
+.RadRotator {
+    margin-left: auto;
+    margin-right: auto;
+}

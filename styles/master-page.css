@@ -1,0 +1,982 @@
+﻿html .t-container {
+    max-width: 990px;
+}
+
+/*#region Common styles */
+html,
+body,
+form {
+	margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+.WrappingItem {
+    white-space: normal;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.containerA {
+    padding-top:15px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Impact,Oswald,'Arial Narrow Bold', Haettenschweiler, sans-serif;
+    font-size: 2.1em;
+    width: 100%;
+    text-shadow: 3px 3px #000000;
+} 
+
+/*#region Sticky footer*/
+
+
+.main-container-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+
+.all-content-wrapper {
+    padding-bottom: 84px; /* Height of the footer */
+}
+
+.footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 84px; /* Height of the footer */
+}
+/*#endregion */
+
+body {
+	font-size: 16px;
+	font-family: "Segoe UI", "helvetica neue light", sans-serif;
+	color: #545c61;
+}
+
+a img {
+	border: none;
+}
+/*#endregion*/
+
+.header-wrapperM {
+    height: 175px;
+    padding-left: 75px;
+}
+
+.header-wrapperM h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+/*#region Header*/
+.header-wrapper {
+	background-color: #000000;
+	height: 175px;
+}
+
+	.header-wrapper h1 {
+		margin: 0;
+		padding: 0;
+		font-size: 1em;
+	}
+/*#endregion*/
+
+/* Headings */
+
+
+/* Footer on Bottom */
+
+
+/* Common Sprite Class - just add it to the HTML element and it will apply the sprite image, you will only need to apply the postion */
+.t-rwd-sprite {
+	background-image: url("../Images/rwd-sprite.png");
+	background-repeat: no-repeat;
+}
+
+/*  Header Section */
+
+.t-rwd-logo {
+	display: block;
+	width: 68px;
+	height: 2.5em;
+	line-height: 2.5em;
+	background-position: 0 0;
+}
+
+.t-rwd-logo img {
+	width: 855px;
+	margin: 14px -20px 0;
+}
+
+.menu-wrapper {
+	background-color: #e8eaec;
+    *zoom: 1;
+}
+    .menu-wrapper:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+.menu-wrapperM {
+    background-color: #ffffff;
+    *zoom: 1;
+}
+
+    .menu-wrapperM:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+.t-rwd-try-now-buttons {
+	text-align: right;
+}
+
+	.t-rwd-try-now-buttons .RadButton.RadButton_MetroTouch.rbLinkButton {
+		min-width: 70px;
+        min-height: 0;
+		margin-top: 3.5em;
+		background-color: #595B61;
+		border-radius: 2px;
+		color: #fff;
+		font-size: .937em;
+		font-weight: bold;
+		line-height: 1.2;
+		padding: .4em 1em .7em;
+		text-align: center;
+		transition-duration: 0.2s;
+		transition-property: background-color, color;
+		transition-timing-function: ease;
+		border: none;
+	}
+
+		.t-rwd-try-now-buttons .RadButton.RadButton_MetroTouch.rbLinkButton:hover,
+		.t-rwd-try-now-buttons .RadButton.RadButton_MetroTouch.rbLinkButton:focus {
+			background-color: #414246;
+		}
+
+		.t-rwd-try-now-buttons .RadButton.RadButton_MetroTouch.rbLinkButton.t-rwd-prim {
+			background-color: #EE5315;
+            top: 100px;
+		}
+
+			.t-rwd-try-now-buttons .RadButton.RadButton_MetroTouch.rbLinkButton.t-rwd-prim:hover,
+			.t-rwd-try-now-buttons .RadButton.RadButton_MetroTouch.rbLinkButton.t-rwd-prim:focus {
+				background-color: #C2410E;
+			}
+
+/* Menu Styles */
+.menu-wrapper .RadMenu.RadMenu_MetroTouch {
+	font-size: .7525em;
+}
+
+	.menu-wrapper .RadMenu.RadMenu_MetroTouch .rmRootGroup {
+		background-color: transparent;
+		color: #282828;
+		border: none;
+		font-weight: bold;
+		padding: 0;
+	}
+
+.menu-wrapper .RadMenu_MetroTouch .rmRootGroup .rmItem,
+.menu-wrapper .RadMenu_MetroTouch .rmRootGroup .rmRootLink:hover,
+.menu-wrapper .RadMenu_MetroTouch .rmRootGroup .rmFocused > .rmLink,
+.menu-wrapper .RadMenu_MetroTouch .rmLink.rmRootLink {
+    border-color: transparent;
+    margin-left: -4px;
+}
+
+.menu-wrapper .RadMenu_MetroTouch .rmLink.rmRootLink {
+    color: #282828;
+	line-height: 4.5em;
+}
+
+	.menu-wrapper .RadMenu_MetroTouch .rmFocused > .rmLink.rmRootLink,
+	.menu-wrapper .RadMenu_MetroTouch .rmLink.rmRootLink:hover {
+		background-color: #fff;
+		color: #2db245;
+        font-size: 1.000em;
+	}
+
+.menu-wrapper .RadMenu_MetroTouch .rmRootGroup .rmExpanded,
+.menu-wrapper .RadMenu_MetroTouch .rmRootGroup .rmSelected > .rmRootLink,
+.menu-wrapper .RadMenu_MetroTouch .rmRootGroup .rmExpanded > .rmRootLink {
+	background-color: #fff;
+}
+
+.menu-wrapper .RadMenu_MetroTouch .rmRootGroup .rmSlide {
+	font-weight: bold;
+}
+
+.menu-wrapper .RadMenu_MetroTouch .rmIcon {
+	background-image: url("../Images/rwd-sprite.png");
+	background-repeat: no-repeat;
+}
+
+.menu-wrapper .RadMenu_MetroTouch .rmHorizontal .rmExpand:before,
+.menu-wrapper .RadMenu_MetroTouch .rmBottomArrow .rmIcon {
+	background-position: 4px -117px;
+}
+
+html .RadMenu {
+    display: block;
+}
+/* Mobile Menu styles */
+.menu-wrapper .RadMenu_MetroTouch .rmRootToggle {
+	margin-top: .8em;
+}
+
+/* End Menu Style */
+
+/* Mobile Menu */
+
+.RadMenu_MetroTouch.t-rwd-menu-mobile {
+	position: static;
+}
+
+	.RadMenu_MetroTouch.t-rwd-menu-mobile .rmRootToggle {
+		width: 38px;
+		height: 38px;
+		background-color: transparent;
+		border-color: transparent;
+		color: #fff;
+		font-size: 4.7em;
+		position: absolute;
+		right: 0;
+		top: .1em;
+		margin-right: 10px;
+	}
+	.RadMenu_MetroTouch.t-rwd-menu-mobile .rmRootToggle:before {
+        z-index:20000;
+        content: "";
+        background-image: url("../Images/mobileMenuButton.png");
+	}
+
+        .RadMenu_MetroTouch.t-rwd-menu-mobile .rmRootToggle:active,
+        .RadMenu_MetroTouch.t-rwd-menu-mobile .rmRootToggle.rmExpanded {
+            background-color: #fff;
+            border-color: transparent;
+            color: #000;
+        }
+
+.RadMenuPopup_MetroTouch.t-rwd-menu-mobile {
+	z-index: 10000;
+}
+
+
+.RadMenu_MetroTouch.dt-rwd-menu-mobileNew {
+    position: absolute;
+    padding-left: 130px;
+    height: 80px;
+}
+.RadMenu_MetroTouch.t-rwd-menu-mobileNew .rmRootToggle {
+    margin-right: 40px;
+}
+    .RadMenu_MetroTouch.t-rwd-menu-mobileNew .rmRootToggle:before {
+        line-height: 37px;
+        z-index: 20000;
+        background-image: url(device-detect.png);
+    }
+.RadMenu_MetroTouch.t-rwd-menu-mobileNew .rmRootToggle:active,
+.RadMenu_MetroTouch.t-rwd-menu-mobileNew .rmRootToggle.rmExpanded {
+    background-color: #fff;
+    border-color: transparent;
+    color: #000;
+    padding-left: 50px;
+}
+.RadMenuPopup_MetroTouch.t-rwd-menu-mobileNew {
+    z-index: 10000;
+    font-size: 50px;
+}
+/* Mobile Menu End */
+
+
+.logo-wrapper {
+	height: auto;
+	max-height: 100px;
+	background: linear-gradient(#fdfefe, #f0f2f4);
+	border-bottom: 1px solid #b6bdc1;
+}
+    .logo-wrapper > .t-container {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+.t-rwd-logo-wrapper {
+	float: left;
+	margin: 0;
+	color: #595b61;
+}
+
+.t-rwd-logo-wrapper h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	color: #2cb145;
+	font-weight: lighter;
+
+}
+
+/* SocialShare Desktop Position */
+.logo-wrapper .t-rwd-ssh-dt .t-rwd-SocialShare {
+    margin-top: 3px;
+    padding: 0;
+    border: 0;
+    height: auto;
+	position: static;
+    float: right;
+}
+
+html .RadSocialShare_MetroTouch a.sshLinkItem .sshIcon {
+	left: 8px;
+	top: 8px;
+}
+
+/* DropDown FontSizes */
+
+.RadDropDownList_MetroTouch.t-rwd-ddl {
+	margin-top: -1.8em;
+	float: left;
+	outline: none;
+}
+
+.RadDropDownList_MetroTouch.t-rwd-ddl .rddlFocused {
+	border-color: #CDCDCD;
+	outline: none;
+}
+
+div.rddlPopup_MetroTouch {
+	border-top: 0;
+}
+
+.RadDropDownList_MetroTouch.t-rwd-ddl .rddlInner.rddlFocused,
+.rddlPopup_MetroTouch .rddlItem.rddlItemSelected,
+.RadDropDownList_MetroTouch.t-rwd-ddl .rddlPopup_MetroTouch .rddlItemSelected {
+	background-color: #e8e8e8;
+	color: #000;
+}
+
+	.RadDropDownList_MetroTouch.t-rwd-ddl .rddlInner.rddlFocused .rddlIcon {
+		background-position: -11px -58px;
+	}
+
+
+/* Social Share */
+div.t-col.t-rwd-ssh-wrapper {
+	margin-top: 20px;
+}
+
+div.t-rwd-SocialShare {
+	border-color: transparent;
+	background-color: transparent;
+	position: absolute;
+	right: 10px;
+	top: 95px;
+}
+
+div.t-rwd-SocialShare .sshListItem {
+	margin-left: 10px;
+}
+
+div.t-rwd-SocialShare .sshListItem:last-child {
+	margin-left: 7px;
+}
+
+div.t-rwd-SocialShare a.sshLinkItem:before,
+div.t-rwd-SocialShare a.sshLinkItem:hover:before {
+	background-color: #c0c6ca;
+	border: 1px solid #c0c6ca;
+	width: 40px;
+	height: 40px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.t-rwd-SocialShare a.sshLinkItem:hover:before {
+	opacity: .6;
+}
+
+div.t-rwd-SocialShare .sshIcon {
+	background-image: url("../Images/rwd-sprite.png");
+	width: 25px;
+	height: 25px;
+}
+
+div.t-rwd-SocialShare .sshShareOnFacebook,
+div.t-rwd-SocialShare .sshLinkItem:hover .sshShareOnFacebook {
+	background-position: 0 -200px;
+}
+
+div.t-rwd-SocialShare .sshShareOnTwitter,
+div.t-rwd-SocialShare .sshLinkItem:hover .sshShareOnTwitter {
+	background-position: 0 -240px;
+}
+
+div.t-rwd-SocialShare .sshLinkedIn,
+div.t-rwd-SocialShare .sshLinkItem:hover .sshLinkedIn {
+	background-position: 0 -280px;
+}
+
+div.t-rwd-SocialShare .sshGooglePlus,
+div.t-rwd-SocialShare .sshLinkItem:hover .sshGooglePlus {
+	background-position: 0 -320px;
+}
+/* End Social Share */
+
+.content-wrapper {
+	background-color: #fff;
+	padding: 0 0 100px 0;
+	font-size: .94em;
+    margin-top: -100px;
+}
+
+.t-rwd-white-row2 {
+    padding: 2em 0;
+    background-color: #fff;
+    background-image: url("../Images/OSSAABackground.png");
+}
+
+.t-rwd-gray-rowLOGO {
+    padding: 1em 0;
+    background-image:url(../Images/FilmStrip.gif); 
+}
+
+.t-rwd-gray-rowLGW {
+    padding: 1em 0;
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(gray, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gray, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gray, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gray, lightgray); /* Standard syntax */
+}
+
+.t-rwd-gray-row {
+    padding: 1em 0;
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightgray, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgray, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgray, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgray, white); /* Standard syntax */
+}
+
+.t-rwd-white-row {
+    background-color: #fff;
+    background-image: url("../Images/BasketballCourt10.png");
+}
+
+.t-rwd-white-row-ossaa {
+    background-color: #fff;
+    background-image: url("../Images/OSSAABackground.png");
+}
+
+.t-rwd-white-row-none {
+    background-color: #fff;
+    background-image: url("../Images/baseball/dot_PNG34.png");
+}
+
+.t-rwd-white-row-baseball {
+    background-color: #fff;
+    background-image: url("../Images/baseball/Background.png");
+}
+
+.t-rwd-white-row-basketball {
+    background-color: #fff;
+    background-image: url("../Images/basketball/Background.png");
+}
+
+.t-rwd-white-row-cheer {
+    background-color: #fff;
+    background-image: url("../Images/cheer/Background.png");
+}
+
+.t-rwd-white-row-football {
+    background-color: #fff;
+    background-image: url("../Images/football/Background.png");
+}
+
+.t-rwd-white-row-golf {
+    background-color: #fff;
+    background-image: url("../Images/golf/Background.png");
+}
+
+.t-rwd-white-row-soccer {
+    background-color: #fff;
+    background-image: url("../Images/soccer/Background.png");
+}
+
+.t-rwd-white-row-swimming {
+    background-color: #fff;
+    background-image: url("../Images/swimming/Background.png");
+}
+
+.t-rwd-white-row-tennis {
+    background-color: #fff;
+    background-image: url("../Images/tennis/Background.png");
+}
+
+.t-rwd-white-row-track {
+    background-color: #fff;
+    background-image: url("../Images/track/Background.png");
+}
+
+.t-rwd-white-row-volleyball {
+    background-color: #fff;
+    background-image: url("../Images/volleyball/volleyballbackground30.png");
+}
+
+.t-rwd-white-row-wrestling {
+    background-color: #fff;
+    background-image: url("../Images/wrestling/Background.gif");
+}
+
+.t-rwd-grey-row {
+	background-color: #eef1f3;
+}
+
+.t-rwd-clean-row {
+	padding-top:0;
+}
+
+div.t-rwd-clean-bottom-row {
+	padding-bottom: 0;
+}
+
+.content-wrapper .t-rwd-row-pad {
+	margin: 0 0 1.33em;
+}
+
+.content-wrapper h1 {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+.content-wrapper h2 {
+	color: #545c61;
+	font-size: 1.375em;
+	margin: 0;
+	padding: 0 0 1.2em;
+}
+
+.content-wrapper h3 {
+	margin: 4px 0 20px;
+	padding: 0 0 0 22px;
+	font-size: .937em;
+	color: #545c61;
+	text-transform: uppercase;
+	background-image: url("../Images/rwd-sprite.png");
+	background-repeat: no-repeat;
+	background-position: 0 -360px;
+}
+
+.content-wrapper h4 {
+	margin: 0;
+	padding: 0;
+	font-size: .9em;
+	color: #545c61;
+}
+
+.content-wrapper h5 {
+	text-align: center;
+	margin: 0;
+	padding: 0 0 .7em;
+	font-size: 1.1em;
+	color: #545c61;
+}
+
+.content-wrapper img + h5 {
+	padding: .7em 0;
+}
+
+.content-wrapper .t-rwd-overview em {
+    text-align: center;
+    display: block;
+    font-size: .9em;
+}
+
+.content-wrapper p {
+	margin: 0 0 1em;
+}
+
+.content-wrapper a {
+	color: #25a0da;
+	text-decoration: none;
+}
+
+.content-wrapper a:hover,
+.content-wrapper a:active,
+.content-wrapper a:focus {
+	text-decoration: underline;
+}
+
+.content-wrapper .t-rwd-strong {
+	background-image: url("../Images/rwd-sprite.png");
+	background-repeat: no-repeat;
+	background-position: 0 -359px;
+	padding: 0 0 0 22px;
+}
+
+.content-wrapper .t-rwd-right{
+	text-align:right;
+}
+
+.main-container div.t-rwd-rem-pad .t-col.t-rwd-right-fix {
+	padding-left: 25px;
+}
+
+.t-rwd-center {
+	text-align: center;
+}
+
+.content-wrapper .t-rwd-back {
+	margin: 1em 0;
+}
+
+.content-wrapper .t-rwd-back a {
+	margin: 1em 0;
+}
+
+.content-wrapper .t-rwd-back span {
+	padding-right: .3em;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: -2px;
+}
+
+.t-rwd-code-sample {
+	display: block;
+	background-color: #e9edef;
+}
+
+.t-rwd-code-sample pre {
+	padding: 1em;
+    white-space:normal;
+}
+
+div.rddlSlide {
+	z-index: 1000001;
+}
+
+.t-rwd-list {
+	margin: 0;
+	padding: 0;
+	list-style: none inside;
+}
+
+.t-rwd-list li {
+	background-image: url("../Images/rwd-sprite.png");
+	background-repeat: no-repeat;
+	background-position: 0 -357px;
+	padding: 0 0 .5em 22px;
+}
+
+.t-rwd-list a {
+	color: #2cb145;
+	font-size: 1.2em;
+	padding: .5em 0;
+	display: inline-block;
+}
+
+.t-rwd-list a:first-child {
+	padding: 0  0 .5em 0;
+}
+
+.t-rwd-qr {
+	padding: 0 0 0 1em;
+}
+
+.t-rwd-qr img {
+	margin-top: 5px;
+}
+
+.t-rwd-qr span {
+	text-align: left;
+	width: 13em;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 0 1.3em;
+}
+
+.t-rwd-qr span a {
+	display: inline-block;
+	margin: 1em 0 0;
+}
+
+.t-rwd-detect-img {
+    margin-top:-6.5em;
+}
+
+.footer-wrapper {
+	background-color: #2a2d33;
+	width: 100%;
+	padding: .5em 0;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+.footer-wrapper p {
+	margin: 0;
+	padding: 0;
+	color: #777;
+}
+
+
+.footer-wrapper p a, .footer-wrapper p a:hover {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.footer-wrapper .t-rwd-bottom-logo {
+	padding: 1em 0 .5em 0;
+}
+
+.footer-wrapper .t-rwd-quick-links {
+	padding-bottom: .5em;
+}
+
+.footer-wrapper .t-rwd-quick-links a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-wrapper .t-rwd-quick-links a:before {
+	color: #555555;
+	font-size: 1.3em;
+	margin-left: 3px;
+	margin-right: 8px;
+}
+
+.footer-wrapper .t-rwd-quick-links a:first-child:before {
+	display: none;
+}
+
+.footer-wrapper .t-rwd-quick-links a:before {
+	color: #CED1D4;
+	content: "|";
+	display: inline-block;
+	margin-right: 4px;
+}
+
+small {
+	display:block;
+	text-align:right;
+	font-size: .6875em;
+	color: #818692;
+	line-height: 2em;
+}
+
+/*RadControls*/
+
+div.RadWindow_MetroTouch input[type="button"]:hover {
+	background-color: transparent;
+}
+
+/* Registration Form */
+.t-rwd-form .t-rwd-cont,
+.t-rwd-form .t-rwd-addr {
+	margin-bottom: 25px;
+	display: block;
+}
+
+.t-rwd-form div.t-col {
+	margin-bottom: 20px;
+}
+
+.t-rwd-form div.t-rwd-info-wrapper {
+	margin-bottom: 0;
+}
+
+.t-rwd-registration-footer {
+	padding-top: 20px;
+	border-top: 1px solid #b6bdc1;
+}
+
+.t-rwd-registration-footer:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.t-rwd-form .t-rwd-form-button {
+	float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .t-rwd-form div.t-col {
+	    margin-bottom: 0;
+    }
+
+	.t-rwd-form .t-rwd-cont {
+		margin: 0 0 5px;
+	}
+
+	.t-rwd-form .t-rwd-addr {
+		margin: 25px 0 5px;
+	}
+
+	.t-rwd-registration-footer {
+		margin-top: 20px;
+	}
+
+	.t-rwd-form .t-rwd-form-button {
+		display: block;
+		float: none;
+		text-align: center;
+	}
+	
+	div.t-rwd-SocialShare {
+		left: 10px;
+	}
+
+	.footer-wrapper {
+		height: 60px;
+        width: 100%;
+	}
+
+	.footer-wrapper,
+	small {
+		text-align: center;
+	}
+}
+
+.t-rwd-form div.t-col .rfdTextInput {
+	width: 100%;
+	-moz-box-sizing:  border-box;
+	-webkit-box-sizing:  border-box;
+	box-sizing:  border-box;
+}
+
+/* End Registration Form */
+
+img.t-img-shadow,
+.t-img-shadow > img {
+    max-width: 100%;
+}
+
+img.t-img,
+.t-img > img {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header-wrapper .t-rwd-download-link {
+    padding-top: .75em;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+}
+
+.t-rwd-lightbox.RadLightBox {
+    z-index:8000 !important;
+}
+
+.rgEditForm select {
+    width: 157px;
+}
+
+#left01 {
+    background-color: white;
+    position: center;
+    border-radius: 15px;
+    border: 1px solid #0a95f7;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    min-height: 400px;
+}
+
+#left02 {
+    background-color: darkorange;
+    position: center;
+    border-radius: 15px;
+    border: 1px solid #0a95f7;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    min-height: 200px;
+}
+
+#right01 {
+    background-color: darkorange;
+    position: center;
+    border-radius: 15px;
+    border: 1px solid #0a95f7;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#right01a {
+    background-color: darkorange;
+    position: center;
+    border-radius: 15px;
+    border: 1px solid #0a95f7;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#right02 {
+    background-color: white;
+    position: center;
+    border-radius: 10px;
+    border: 1px solid #0a95f7;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+    max-height: 1500px;
+}
+
+#imageShadow {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1.5);
+    padding-bottom: 20px;
+}

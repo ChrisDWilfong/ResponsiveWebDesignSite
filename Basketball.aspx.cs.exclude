@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Basketball : System.Web.UI.Page
+{
+    public string pageSport = "Basketball";
+    public string pageWebType = "OSSAA.COM";
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void Page_Init(object sender, EventArgs e)
+    {
+        int x = 0;
+
+        // LOAD Top Menu...
+        clsWebBuilder objWB1 = new clsWebBuilder();
+        Telerik.Web.UI.RadMenu objNews = new Telerik.Web.UI.RadMenu();
+        objNews = objWB1.BuildPageMenuItem(pageWebType, pageSport, objNews);
+        do
+        {
+            RadMenu1.Items.Add(objNews.Items[x]);
+        } while (x <= (objNews.Items.Count - 1));
+
+        // LOAD Bottom Menu...
+        clsWebBuilder objWB2 = new clsWebBuilder();
+        Telerik.Web.UI.RadMenu objChampionships = new Telerik.Web.UI.RadMenu();
+        objChampionships = objWB2.BuildPageMenuItem(pageWebType, pageSport, objNews, (clsFunctions.GetCurrentYear()-1));
+        do
+        {
+            RadMenu2.Items.Add(objChampionships.Items[x]);
+        } while (x <= (objChampionships.Items.Count - 1));
+
+        // LOAD Images...
+        string retValue = "";
+        retValue = objWB1.BuildImagesForPage(ref ImageHeader, ref ImageButton0, ref ImageButton1, ref ImageButton2, ref ImageButton3, ref ImageButton4, pageWebType, pageSport, false);
+
+
+    }
+
+}

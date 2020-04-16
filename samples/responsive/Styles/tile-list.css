@@ -1,0 +1,66 @@
+﻿/* peek template appearance */
+.rtilePeekContent{
+	width: 100%;
+	height: 100%;
+}
+.peekTemplateClass
+{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.peekTemplateClass a{
+	color: #fff;
+}
+
+/* group heading tile appearance */
+.groupHeadingTitle
+{
+	height: 150px;
+	width: 150px;
+	position: relative;
+}
+
+.innerTitle
+{
+	width: 150px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	position: absolute;
+	font-size: 17px;
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+div.noHover.RadTile
+{
+	border-color: transparent;
+}
+
+/* change tile texts to better fit long names and show over the images */
+.RadTile div.rtileBottomContent
+{
+	font-weight: bold;
+	width: auto;
+	max-width: 150px;
+	color: Black;
+	/* semi-transparent background like this will work in CSS3 compatible browsers */
+	background-color: rgba(255,255,255,0.5);
+	height: 20px;
+	line-height: 20px;
+	padding: 0 10px;
+	bottom: 10px;
+}
+
+/* banner */
+.directoryHeader
+{
+	width: 1005px;
+	height: 70px;
+	background-image: url('../SampleImages/header_light.png');
+	margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="">
+    <siteMapNode title="OSSAA INFO" description="">
+    </siteMapNode>
+    <siteMapNode url="Eligibility.aspx" title="ELIGIBILITY" description="OSSAA Eligibility" ></siteMapNode>
+    <siteMapNode url="" title="CLASSIFICATION" description="" >
+    </siteMapNode>
+    <siteMapNode url="MiscForms.aspx" title="MISC FORMS"  description="Misc Forms">
+    </siteMapNode>    
+    <siteMapNode url="" title="SPORTS"  description="">
+      <siteMapNode url="Baseball.aspx" title="BASEBALL"  description="OSSAA Baseball"/>
+      <siteMapNode url="Basketball.aspx" title="BASKETBALL"  description="OSSAA Basketball" />
+      <siteMapNode url="Cheerleading.aspx" title="CHEER"  description="OSSAA Cheerleading" />
+      <siteMapNode url="CrossCountry.aspx" title="CROSS COUNTRY"  description="OSSAA Cross Country" />
+      <siteMapNode url="FastPitch.aspx" title="FAST PITCH"  description="OSSAA Fast Pitch" />
+      <siteMapNode url="Football.aspx" title="FOOTBALL"  description="OSSAA Football" />
+      <siteMapNode url="Golf.aspx" title="GOLF"  description="OSSAA Golf" />
+      <siteMapNode url="SlowPitch.aspx" title="SLOW PITCH"  description="OSSAA Slow Pitch" />
+      <siteMapNode url="Soccer.aspx" title="SOCCER"  description="OSSAA Soccer" />
+      <siteMapNode url="Swimming.aspx" title="SWIMMING"  description="OSSAA Swimming" />
+      <siteMapNode url="Tennis.aspx" title="TENNIS"  description="OSSAA Tennis" />
+      <siteMapNode url="Track.aspx" title="TRACK"  description="OSSAA Track" />
+      <siteMapNode url="Volleyball.aspx" title="VOLLEYBALL"  description="OSSAA Volleyball" />
+      <siteMapNode url="Wrestling.aspx" title="WRESTLING"  description="OSSAA Wrestling" />
+    </siteMapNode>
+    <siteMapNode url="" title="NON-ATHLETIC"  description="">
+      <siteMapNode url="AcademicBowl.aspx" title="ACADEMIC BOWL"  description="" />
+      <siteMapNode url="Music.aspx" title="MUSIC"  description="" />
+      <siteMapNode url="SpeechDebate.aspx" title="SPEECH/DEBATE"  description="OSSAA Speech Debate" />
+    </siteMapNode>
+    <siteMapNode url="http://www.ossaarankings.com/officials/Portal.aspx" title="OFFICIALS"  description="OSSAA Officials Portal">
+    </siteMapNode>
+    <siteMapNode url="SportsMedicine.aspx" title="SPORTS MEDICINE"  description="Sports Medicine">
+    </siteMapNode>
+    <siteMapNode url="Champions.aspx" title="CHAMPIONS"  description="Champions">
+    </siteMapNode>    
+    <siteMapNode url="Media.aspx" title="MEDIA"  description="Media">
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

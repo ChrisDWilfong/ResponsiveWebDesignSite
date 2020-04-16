@@ -1,0 +1,9 @@
+﻿body {
+}
+
+
+.imageRight {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1.5);
+    margin-bottom: 10px;
+    border-width: 1px;
+}

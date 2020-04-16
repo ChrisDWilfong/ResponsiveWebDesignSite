@@ -1,0 +1,66 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class ResponsiveWebDesignOverview : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void Page_Init(object sender, EventArgs e)
+    {
+        int x = 0;
+
+        /// NEWS...
+        clsWebBuilder objWB1 = new clsWebBuilder();
+        Telerik.Web.UI.RadMenu objNews = new Telerik.Web.UI.RadMenu();
+        objNews = objWB1.BuildPageMenuItem("OSSAA.COM", "HomeColumn1", objNews);
+        do
+        {
+            RadMenu1.Items.Add(objNews.Items[x]);
+        } while (x <= (objNews.Items.Count -1));
+
+        /// QUICK LINKS...
+        clsWebBuilder objWB2 = new clsWebBuilder();
+        Telerik.Web.UI.RadMenu objQuickLinks = new Telerik.Web.UI.RadMenu();
+        objQuickLinks = objWB2.BuildPageMenuItem("OSSAA.COM", "HomeColumn2", objQuickLinks);
+        do
+        {
+            RadMenu2.Items.Add(objQuickLinks.Items[x]);
+        } while (x <= (objQuickLinks.Items.Count - 1));
+
+        /// QUICK LINKS...
+        clsWebBuilder objWB3 = new clsWebBuilder();
+        Telerik.Web.UI.RadMenu objUE = new Telerik.Web.UI.RadMenu();
+        objUE = objWB3.BuildPageMenuItem("OSSAA.COM", "HomeColumn3", objUE);
+        do
+        {
+            RadMenu3.Items.Add(objUE.Items[x]);
+        } while (x <= (objUE.Items.Count - 1));
+
+        /// NFHS...
+        clsWebBuilder objWB4 = new clsWebBuilder();
+        Telerik.Web.UI.RadMenu objNFHS = new Telerik.Web.UI.RadMenu();
+        objNFHS = objWB4.BuildPageMenuItem("OSSAA.COM", "HomeColumn3a", objNFHS);
+        do
+        {
+            RadMenu4.Items.Add(objNFHS.Items[x]);
+        } while (x <= (objNFHS.Items.Count - 1));
+
+        /// Scroller Pictures...
+        // Telerik.Web.UI.RadRotator objRotator = new Telerik.Web.UI.RadRotator();
+        // objRotator = objWB1.BuildPageRotator("OSSAA.COM", "HomeScroller", objRotator);
+        //objWB1.BuildPageRotator("OSSAA.COM", "HomeScroller", RadRotator1);
+
+    }
+    protected void RadCalendar1_SelectionChanged(object sender, Telerik.Web.UI.Calendar.SelectedDatesEventArgs e)
+    {
+        RadMenuCalendar.Items[0].Text = RadCalendar1.SelectedDate.ToLongDateString();
+    }
+
+}

@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\AcademicBowl.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\AcademicBowl.aspx" />
+  <event action="Analyze" type="Success" name="AcademicBowl.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\AcademicBowl.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Baseball.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Baseball.aspx" />
+  <event action="Analyze" type="Success" name="Baseball.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Baseball.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Basketball.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Basketball.aspx" />
+  <event action="Analyze" type="Success" name="Basketball.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Basketball.aspx" />
+  <event action="Analyze" type="Success" name="Binary References" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Bin\" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Champions.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Champions.aspx" />
+  <event action="Analyze" type="Success" name="Champions.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Champions.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Cheerleading.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Cheerleading.aspx" />
+  <event action="Analyze" type="Success" name="Cheerleading.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Cheerleading.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\CrossCountry.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\CrossCountry.aspx" />
+  <event action="Analyze" type="Success" name="CrossCountry.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\CrossCountry.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\default.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\default.aspx" />
+  <event action="Analyze" type="Success" name="default.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\default.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Eligibility.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Eligibility.aspx" />
+  <event action="Analyze" type="Success" name="Eligibility.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Eligibility.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\FastPitch.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\FastPitch.aspx" />
+  <event action="Analyze" type="Success" name="FastPitch.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\FastPitch.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Football.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Football.aspx" />
+  <event action="Analyze" type="Success" name="Football.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Football.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Golf.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Golf.aspx" />
+  <event action="Analyze" type="Success" name="Golf.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Golf.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\HtmlPage.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\HtmlPage.html" />
+  <event action="Analyze" type="Success" name="HtmlPage.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\HtmlPage.html" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual.aspx" />
+  <event action="Analyze" type="Success" name="Manual.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Basketball.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Basketball.aspx" />
+  <event action="Analyze" type="Success" name="Manual_Basketball.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Basketball.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_BoardPolicies.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_BoardPolicies.aspx" />
+  <event action="Analyze" type="Success" name="Manual_BoardPolicies.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_BoardPolicies.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Calendar.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Calendar.aspx" />
+  <event action="Analyze" type="Success" name="Manual_Calendar.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Calendar.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Constitution.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Constitution.aspx" />
+  <event action="Analyze" type="Success" name="Manual_Constitution.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Constitution.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Rules.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Rules.aspx" />
+  <event action="Analyze" type="Success" name="Manual_Rules.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Manual_Rules.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\maps.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\maps.aspx" />
+  <event action="Analyze" type="Success" name="maps.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\maps.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Media.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Media.aspx" />
+  <event action="Analyze" type="Success" name="Media.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Media.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\MiscForms.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\MiscForms.aspx" />
+  <event action="Analyze" type="Success" name="MiscForms.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\MiscForms.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\MobileSampleSite.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\MobileSampleSite.master" />
+  <event action="Analyze" type="Success" name="MobileSampleSite.master" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\MobileSampleSite.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Music.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Music.aspx" />
+  <event action="Analyze" type="Success" name="Music.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Music.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\OSSAAHome.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\OSSAAHome.aspx" />
+  <event action="Analyze" type="Success" name="OSSAAHome.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\OSSAAHome.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Parents.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Parents.aspx" />
+  <event action="Analyze" type="Success" name="Parents.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Parents.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\ParentsIFRAME.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\ParentsIFRAME.aspx" />
+  <event action="Analyze" type="Success" name="ParentsIFRAME.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\ParentsIFRAME.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Photos.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Photos.aspx" />
+  <event action="Analyze" type="Success" name="Photos.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Photos.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\grid.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\grid.aspx" />
+  <event action="Analyze" type="Success" name="grid.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\grid.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\lightbox.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\lightbox.aspx" />
+  <event action="Analyze" type="Success" name="lightbox.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\lightbox.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\media-player.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\media-player.aspx" />
+  <event action="Analyze" type="Success" name="media-player.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\media-player.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\menu.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\menu.aspx" />
+  <event action="Analyze" type="Success" name="menu.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\menu.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\scheduler.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\scheduler.aspx" />
+  <event action="Analyze" type="Success" name="scheduler.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\scheduler.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\wizard.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\wizard.aspx" />
+  <event action="Analyze" type="Success" name="wizard.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive\wizard.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive-behavior.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive-behavior.aspx" />
+  <event action="Analyze" type="Success" name="adaptive-behavior.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\adaptive-behavior.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\dock.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\dock.aspx" />
+  <event action="Analyze" type="Success" name="dock.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\dock.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\menu.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\menu.aspx" />
+  <event action="Analyze" type="Success" name="menu.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\menu.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\registration-form.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\registration-form.aspx" />
+  <event action="Analyze" type="Success" name="registration-form.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\registration-form.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\window.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\window.aspx" />
+  <event action="Analyze" type="Success" name="window.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic\window.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic-behavior.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic-behavior.aspx" />
+  <event action="Analyze" type="Success" name="elastic-behavior.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\elastic-behavior.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\editor.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\editor.aspx" />
+  <event action="Analyze" type="Success" name="editor.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\editor.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\image-gallery.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\image-gallery.aspx" />
+  <event action="Analyze" type="Success" name="image-gallery.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\image-gallery.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\tilelist.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\tilelist.aspx" />
+  <event action="Analyze" type="Success" name="tilelist.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive\tilelist.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive-behavior.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive-behavior.aspx" />
+  <event action="Analyze" type="Success" name="responsive-behavior.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples\responsive-behavior.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples.aspx" />
+  <event action="Analyze" type="Success" name="samples.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\samples.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\404-error-page.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\404-error-page.html" />
+  <event action="Analyze" type="Success" name="404-error-page.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\404-error-page.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\about-us.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\about-us.html" />
+  <event action="Analyze" type="Success" name="about-us.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\about-us.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\albums.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\albums.html" />
+  <event action="Analyze" type="Success" name="albums.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\albums.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\blog-elements.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\blog-elements.html" />
+  <event action="Analyze" type="Success" name="blog-elements.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\blog-elements.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\blog-post.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\blog-post.html" />
+  <event action="Analyze" type="Success" name="blog-post.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\blog-post.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\checkout.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\checkout.html" />
+  <event action="Analyze" type="Success" name="checkout.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\checkout.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\coming-soon.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\coming-soon.html" />
+  <event action="Analyze" type="Success" name="coming-soon.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\coming-soon.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\contact-us.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\contact-us.html" />
+  <event action="Analyze" type="Success" name="contact-us.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\contact-us.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\fullwidth-shop.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\fullwidth-shop.html" />
+  <event action="Analyze" type="Success" name="fullwidth-shop.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\fullwidth-shop.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\gallery.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\gallery.html" />
+  <event action="Analyze" type="Success" name="gallery.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\gallery.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\game-overview.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\game-overview.html" />
+  <event action="Analyze" type="Success" name="game-overview.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\game-overview.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\game-schedule.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\game-schedule.html" />
+  <event action="Analyze" type="Success" name="game-schedule.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\game-schedule.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\grid-shop.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\grid-shop.html" />
+  <event action="Analyze" type="Success" name="grid-shop.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\grid-shop.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-baseball.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-baseball.html" />
+  <event action="Analyze" type="Success" name="home-baseball.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-baseball.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-basketball.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-basketball.html" />
+  <event action="Analyze" type="Success" name="home-basketball.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-basketball.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-billiards.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-billiards.html" />
+  <event action="Analyze" type="Success" name="home-billiards.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-billiards.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-bowling.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-bowling.html" />
+  <event action="Analyze" type="Success" name="home-bowling.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-bowling.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-rugby.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-rugby.html" />
+  <event action="Analyze" type="Success" name="home-rugby.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\home-rugby.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\index.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\index.html" />
+  <event action="Analyze" type="Success" name="index.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\index.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\latest-results-1.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\latest-results-1.html" />
+  <event action="Analyze" type="Success" name="latest-results-1.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\latest-results-1.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\latest-results-2.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\latest-results-2.html" />
+  <event action="Analyze" type="Success" name="latest-results-2.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\latest-results-2.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\list-shop.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\list-shop.html" />
+  <event action="Analyze" type="Success" name="list-shop.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\list-shop.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\login-and-register.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\login-and-register.html" />
+  <event action="Analyze" type="Success" name="login-and-register.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\login-and-register.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-1.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-1.html" />
+  <event action="Analyze" type="Success" name="news-1.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-1.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-2.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-2.html" />
+  <event action="Analyze" type="Success" name="news-2.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-2.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-3.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-3.html" />
+  <event action="Analyze" type="Success" name="news-3.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-3.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-4.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-4.html" />
+  <event action="Analyze" type="Success" name="news-4.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-4.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-5.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-5.html" />
+  <event action="Analyze" type="Success" name="news-5.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\news-5.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\player-page.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\player-page.html" />
+  <event action="Analyze" type="Success" name="player-page.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\player-page.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\privacy-policy.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\privacy-policy.html" />
+  <event action="Analyze" type="Success" name="privacy-policy.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\privacy-policy.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\product-page.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\product-page.html" />
+  <event action="Analyze" type="Success" name="product-page.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\product-page.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\roster.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\roster.html" />
+  <event action="Analyze" type="Success" name="roster.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\roster.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\search-results.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\search-results.html" />
+  <event action="Analyze" type="Success" name="search-results.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\search-results.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shop-elements.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shop-elements.html" />
+  <event action="Analyze" type="Success" name="shop-elements.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shop-elements.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shopping-cart.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shopping-cart.html" />
+  <event action="Analyze" type="Success" name="shopping-cart.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shopping-cart.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shortcodes.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shortcodes.html" />
+  <event action="Analyze" type="Success" name="shortcodes.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\shortcodes.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\sport-elements.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\sport-elements.html" />
+  <event action="Analyze" type="Success" name="sport-elements.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\sport-elements.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\standings.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\standings.html" />
+  <event action="Analyze" type="Success" name="standings.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\standings.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\typography.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\typography.html" />
+  <event action="Analyze" type="Success" name="typography.html" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\site\typography.html" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SlowPitch.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SlowPitch.aspx" />
+  <event action="Analyze" type="Success" name="SlowPitch.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SlowPitch.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Soccer.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Soccer.aspx" />
+  <event action="Analyze" type="Success" name="Soccer.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Soccer.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SpeechDebate.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SpeechDebate.aspx" />
+  <event action="Analyze" type="Success" name="SpeechDebate.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SpeechDebate.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SportsMedicine.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SportsMedicine.aspx" />
+  <event action="Analyze" type="Success" name="SportsMedicine.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\SportsMedicine.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Swimming.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Swimming.aspx" />
+  <event action="Analyze" type="Success" name="Swimming.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Swimming.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Template.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Template.aspx" />
+  <event action="Analyze" type="Success" name="Template.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Template.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Tennis.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Tennis.aspx" />
+  <event action="Analyze" type="Success" name="Tennis.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Tennis.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Track.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Track.aspx" />
+  <event action="Analyze" type="Success" name="Track.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Track.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Volleyball.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Volleyball.aspx" />
+  <event action="Analyze" type="Success" name="Volleyball.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Volleyball.aspx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\web.config" />
+  <event action="Analyze" type="Success" name="web.config" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\web.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Wrestling.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Wrestling.aspx" />
+  <event action="Analyze" type="Success" name="Wrestling.aspx" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Wrestling.aspx" />
+  <event action="Analyze" type="Success" name="C:\...\ResponsiveWebDesignSite\" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite" />
+  <event action="Analyze" type="Success" name="Mobile-Sample-Site" path="C:\Users\ChrisWilfong\Documents\Visual Studio 2017\Projects\ResponsiveWebDesignSite\Mobile-Sample-Site.sln" />
+</log>

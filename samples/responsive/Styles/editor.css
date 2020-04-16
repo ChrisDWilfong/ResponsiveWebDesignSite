@@ -1,0 +1,49 @@
+﻿div.RadEditor.elastic-control10,
+div.RadEditor.elastic-control10 .reToolbarWrapper,
+div.RadEditor.elastic-control10 .reToolBar
+{
+	font-size: 10px !important;
+}
+
+div.RadEditor.elastic-control12,
+div.RadEditor.elastic-control12 .reToolbarWrapper,
+div.RadEditor.elastic-control12 .reToolBar
+{
+	font-size: 12px;
+}
+
+div.RadEditor.elastic-control14,
+div.RadEditor.elastic-control14 .reToolbarWrapper,
+div.RadEditor.elastic-control14 .reToolBar
+{
+	font-size: 14px;
+}
+
+div.RadEditor.elastic-control16,
+div.RadEditor.elastic-control16 .reToolbarWrapper,
+div.RadEditor.elastic-control16 .reToolBar
+{
+	font-size: 16px;
+}
+
+div.RadEditor.elastic-control18,
+div.RadEditor.elastic-control18 .reToolbarWrapper,
+div.RadEditor.elastic-control18 .reToolBar
+{
+	font-size: 18px;
+}
+
+div.RadEditor.elastic-control20,
+div.RadEditor.elastic-control20 .reToolbarWrapper,
+div.RadEditor.elastic-control20 .reToolBar
+{
+	font-size: 20px;
+}
+
+
+/* used for the demo page styling */
+div.t-rwd-ddl.RadDropDownList_MetroTouch
+{
+	float: none;
+	margin-top: 0;
+}

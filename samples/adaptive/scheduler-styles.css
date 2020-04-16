@@ -1,0 +1,41 @@
+﻿html .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeStart,
+html .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeEnd,
+html .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeStart,
+html .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeEnd
+{
+    top: 0;
+    bottom: auto;
+}
+
+    html .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeStart:before,
+    html .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeEnd:before,
+    html .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeStart:before,
+    html .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeEnd:before
+    {
+        background-position: -17px -2117px;
+    }
+
+@media screen and (max-width: 768px)
+{
+    html .RadScheduler .rsAgendaView .rsDateBox
+    {
+        padding: 5px;
+    }
+
+        html .RadScheduler .rsAgendaView .rsDateBox strong
+        {
+            display: none;
+        }
+
+        html .RadScheduler .rsAgendaView .rsDateBox small
+        {
+            text-align: inherit;
+        }
+}
+
+html .RadScheduler_MetroTouch .rsMonthView .rsAptContent
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

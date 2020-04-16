@@ -1,0 +1,199 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MobileSampleSite - Copy.master.cs" Inherits="MobileSampleSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta name="viewport" content="width=device-width, intial-scale=1" />
+	<link href="styles/master-page.css" rel="stylesheet" />
+	<telerik:RadCodeBlock runat="server">
+		<script src="<%= ResolveUrl("scripts/EqatecMonitor.min.js")%>" type="text/javascript"></script>
+	</telerik:RadCodeBlock>
+
+	<script>
+		(function(g) {
+			if(g._eqatecmonitor)
+				return;
+			try {
+				// Create the monitor instance
+				var settings=_eqatec.createSettings("3706ccaf5bf44c67877b8218c8a3e5af");
+				settings.version="1.2.3";
+				var monitor=g._eqatecmonitor=_eqatec.createMonitor(settings);
+				// Start the monitor when your application starts
+				monitor.start();
+			}
+			catch(e) {
+				console.log("Telerik Analytics exception: "+e.description);
+			}
+		})(window);
+	</script>
+
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<!-- Google Tag Manager -->
+	<noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-6X92" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+	<script>(function(w,d,s,l,i) {
+	w[l]=w[l]||[];
+	w[l].push({ 'gtm.start': new Date().getTime(),event: 'gtm.js' });
+	var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+	j.async=true;
+	j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;
+	f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-6X92');</script>
+	<!-- End Google Tag Manager -->
+	<form id="form1" runat="server">
+
+		<telerik:RadScriptManager runat="server" ID="RadScriptManager1"></telerik:RadScriptManager>
+		<telerik:RadStyleSheetManager runat="server" ID="RadStyleSheetManager"></telerik:RadStyleSheetManager>
+
+		<telerik:RadAjaxManager runat="server" ID="RadAjaxManagerContentUpdater">
+			<AjaxSettings>
+				<telerik:AjaxSetting AjaxControlID="RadDropDownFontSizePostBack">
+					<UpdatedControls>
+						<telerik:AjaxUpdatedControl ControlID="ContentPlaceHolder1" />
+					</UpdatedControls>
+				</telerik:AjaxSetting>
+			</AjaxSettings>
+		</telerik:RadAjaxManager>
+		<telerik:RadPageLayout runat="server" ID="PageLayoutMaster" HtmlTag="None" GridType="Fluid" >
+			<Rows>
+				<telerik:LayoutRow RowType="Generic" CssClass="main-container-wrapper" WrapperHtmlTag="Div">
+					<Rows>
+						<telerik:LayoutRow RowType="Generic" CssClass="all-content-wrapper">
+							<Rows>
+								<telerik:LayoutRow RowType="Container" WrapperCssClass="header-wrapper" WrapperHtmlTag="Div" >
+									<Columns>
+										<telerik:LayoutColumn Span="10" SpanLg="10" SpanXl="10" SpanMd="12" SpanSm="9" SpanXs="12">
+											<a class="t-rwd-logo" href="Default.aspx">
+												<img src="<%= ResolveUrl("Images/OSSAAlogo.png") %>" alt="OSSAA.com" /></a>
+										</telerik:LayoutColumn>
+										<telerik:LayoutColumn Span="2" SpanLg="2" SpanXl="2" HiddenMd="true" HiddenSm="true" HiddenXs="true" CssClass="t-rwd-try-now-buttons">
+                                            <telerik:RadButton ID="RadButtonMembership" runat="server" ButtonType="LinkButton" NavigateUrl="http://www.ossaarankings.com/membership/MemberLogin.aspx" Skin="MetroTouch" Text="Membership" CssClass="t-rwd-prim"></telerik:RadButton>
+                                            <telerik:RadSocialShare runat="server" ID="RadSocialShareHeader" CssClass="t-rwd-SocialShare" Skin="MetroTouch">
+											    <MainButtons>
+												    <telerik:RadSocialButton UrlToShare="https://www.facebook.com/Oklahoma-Secondary-School-Activities-Association-OSSAA-109962359072309/" TitleToShare="OSSAA on Facebook" SocialNetType="ShareOnFacebook" />
+												    <telerik:RadSocialButton UrlToShare="http://www.twitter.com/OSSAAOnline" TitleToShare="OSSAA on Twitter" SocialNetType="ShareOnTwitter" />
+										        </MainButtons>
+										    </telerik:RadSocialShare>
+								        </telerik:LayoutColumn>
+								    </Columns>
+							    </telerik:LayoutRow>
+
+								<telerik:LayoutRow RowType="Container" WrapperCssClass="menu-wrapper" WrapperHtmlTag="Div" HiddenMd="true" HiddenSm="true" HiddenXs="true">
+									<Rows>
+										<telerik:LayoutRow>
+											<Columns>
+												<telerik:LayoutColumn Span="12" SpanLg="12" SpanXl="12" SpanMd="12" HiddenSm="true" HiddenXs="true">
+													<telerik:RadMenu runat="server" ID="RadMenuMain" RenderMode="Classic" Skin="MetroTouch" DataSourceID="SiteMapDataSourceMenu">
+                                                        <DefaultGroupSettings Width="160px" />
+													</telerik:RadMenu>
+												</telerik:LayoutColumn>
+												<telerik:LayoutColumn Span="12" HiddenLg="true" HiddenXl="true" HiddenMd="true" SpanSm="9" SpanXs="12">
+													<telerik:RadMenu runat="server" ID="RadMenuMainM" RenderMode="Mobile" Skin="MetroTouch" DataSourceID="SiteMapDataSourceMenu">
+													</telerik:RadMenu>
+												</telerik:LayoutColumn>
+											</Columns>
+										</telerik:LayoutRow>
+									</Rows>
+								</telerik:LayoutRow>
+
+								<telerik:LayoutRow RowType="Container" WrapperCssClass="content-wrapper" WrapperHtmlTag="Div" HtmlTag="None">
+									<Content>
+										<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+										</asp:ContentPlaceHolder>
+									</Content>
+								</telerik:LayoutRow>
+
+							</Rows>
+						</telerik:LayoutRow>
+
+						<telerik:LayoutRow RowType="Container" WrapperCssClass="footer-content footer-wrapper" WrapperHtmlTag="Div">
+							<Rows>
+								<telerik:LayoutRow>
+									<Columns>
+										<telerik:LayoutColumn Span="12">
+											<telerik:RadSocialShare runat="server" ID="RadSocialShareBottom" Visible="false" CssClass="t-rwd-SocialShare" Skin="MetroTouch">
+												<MainButtons>
+													<telerik:RadSocialButton UrlToShare="https://www.facebook.com/Oklahoma-Secondary-School-Activities-Association-OSSAA-109962359072309/" TitleToShare="OSSAA on Facebook" SocialNetType="ShareOnFacebook" />
+													<telerik:RadSocialButton UrlToShare="http://www.Twitter.com/OSSAAOnline" TitleToShare="OSSAA on Twitter" SocialNetType="ShareOnTwitter" />
+												</MainButtons>
+											</telerik:RadSocialShare>
+										</telerik:LayoutColumn>
+
+										<telerik:LayoutColumn CssClass="t-rwd-rem-pad t-rwd-footer" Span="12">
+											<div class="t-rwd-quick-links">
+												<a onclick="_gaq.push(['_trackEvent', 'footer-nav', 'text', 'terms-of-use']);" href="http://www.telerik.com/company/terms-of-use">Terms of Use</a>
+												<a onclick="_gaq.push(['_trackEvent', 'footer-nav', 'text', 'feedback']);" href="http://www.telerik.com/company/feedback">Site Feedback</a>
+												<a onclick="_gaq.push(['_trackEvent', 'footer-nav', 'text', 'privacy-policy']);" href="http://www.telerik.com/company/privacy-policy">Privacy Policy</a>
+											</div>
+											<p>Copyright  &copy; <asp:Literal runat="server" ID="currentYear"></asp:Literal>, Oklahoma Secondary School Activities Association. All Rights Reserved.</p>
+										</telerik:LayoutColumn>
+									</Columns>
+								</telerik:LayoutRow>
+							</Rows>
+						</telerik:LayoutRow>
+
+					</Rows>
+				</telerik:LayoutRow>
+
+			</Rows>
+		</telerik:RadPageLayout>
+
+		<asp:SiteMapDataSource runat="server" ID="SiteMapDataSourceMenu" ShowStartingNode="false" />
+		<asp:SiteMapDataSource runat="server" ID="SiteMapDataSourcePanelBar" StartingNodeUrl="#" ShowStartingNode="false" />
+
+		<script type="text/javascript">
+			var loaded=false;
+
+			function pageLoad() {
+				if(!loaded) {
+					var socialShareHeader=$find("<%=RadSocialShareHeader.ClientID%>"),
+                        socialShareBottom=$find("<%=RadSocialShareBottom.ClientID%>");
+
+                    /**
+					if(socialShareHeader) {
+						addGooglePlusOneButton(socialShareHeader);
+					}
+
+					if(socialShareBottom) {
+						addGooglePlusOneButton(socialShareBottom);
+					}
+                    **/
+
+					loaded=true;
+				}
+
+				if(typeof gridPage!="undefined") {
+					var editZone=$telerik.$(".rgEditForm");
+					if(editZone.length) {
+						var formDecorator=$find(formDecoratorId);
+						formDecorator.set_decoratedControls(Telerik.Web.UI.FormDecoratorDecoratedControls.All);
+						formDecorator.set_decorationZoneID($telerik.$(".rgEditForm")[0].id);
+						formDecorator.decorate();
+					}
+				}
+			}
+
+			function addGooglePlusOneButton(socialShare) {
+				var element=socialShare._element,
+                    googlePlusElement=$telerik.$("<li class='sshListItem'><a class='sshLinkItem' title='Share on GooglePlus' href='javascript:void(0)' onclick='shareWithGooglePlus()'><span class='sshIcon sshGooglePlus'></span></a></li>");
+
+				$telerik.$(element).find(".sshContent").append(googlePlusElement);
+			}
+
+			function onClientClickFeedback(sender,args) {
+				_gaq.push(['_trackPageview','/virtual/ajax-responsive-sample-app/feedback-portal']);
+			}
+
+			function shareWithGooglePlus() {
+				window.open("https://plus.google.com/share?url=http://tlrk.it/1cTHGQp","_blank","toolbar=yes, scrollbars=yes, resizable=yes, width=400, height=500");
+			}
+		</script>
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿.stepContainer {
+	width:400px;
+	margin:0 auto;
+	white-space: normal;
+}
+
+.rwzContent {
+    padding: 20px;
+    text-align: center;
+}
+
+span.riSingle {
+	margin-bottom:10px;
+	display:inline-block;
+}
+
+@media screen and (max-width: 600px) {
+	.stepContainer {
+		width:100%;
+	}
+}

@@ -1,0 +1,218 @@
+﻿<%@ Page Title="OSSAA.com" Language="C#" MasterPageFile="~/MobileSampleSite.master" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="ResponsiveWebDesignOverview" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <title>OSSAA.com</title>
+    <meta description="Oklahoma Secondary School Actvities Association" />
+
+    <script>
+    var today = new Date(),
+        events = [
+            +new Date(today.getFullYear(), today.getMonth(), 8),
+            +new Date(today.getFullYear(), today.getMonth(), 12),
+            +new Date(today.getFullYear(), today.getMonth(), 24),
+            +new Date(today.getFullYear(), today.getMonth() + 1, 6),
+            +new Date(today.getFullYear(), today.getMonth() + 1, 7),
+            +new Date(today.getFullYear(), today.getMonth() + 1, 25),
+            +new Date(today.getFullYear(), today.getMonth() + 1, 27),
+            +new Date(today.getFullYear(), today.getMonth() - 1, 3),
+            +new Date(today.getFullYear(), today.getMonth() - 1, 5),
+            +new Date(today.getFullYear(), today.getMonth() - 2, 22),
+            +new Date(today.getFullYear(), today.getMonth() - 2, 27)
+        ];
+    </script>
+
+    <style>
+        #calendar {
+            width: 100%;
+        }
+
+        /* Template Days */
+
+        .exhibition,
+        .party,
+        .cocktail {
+            font-weight: bold;
+        }
+
+        .exhibition {
+            color: #ff9e00;
+        }
+
+        .party {
+            color: #ff4081;
+        }
+
+        .cocktail {
+            color: #00a1e8;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <telerik:RadPageLayout ID="RadPageLayout1" runat="server" CssClass="t-rwd-tr t-rwd-overview" HtmlTag="None">
+            <Rows>
+                <telerik:LayoutRow WrapperCssClass="t-rwd-gray-row" WrapperHtmlTag="Div" RowType="Container">
+                    <Columns>
+                        <telerik:LayoutColumn Span="12">
+                            <telerik:RadRotator ID="RadRotator1" runat="server" Width="100%" Height="300px" ScrollDuration="1500" ScrollDirection="Left" FrameDuration="2000" ItemHeight="200" ItemWidth="310" RenderMode="Auto">
+                                <Items>
+
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/scroller/Basket.JPG"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/scroller/CCS.JPG"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/scroller/CrossCountry002.JPG"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/scroller/FTGGirls.JPG"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/scroller/Jet.JPG"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/scroller/StarKingston.JPG"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/scroller/Refs.jpg"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                </Items>
+                            </telerik:RadRotator>
+                        </telerik:LayoutColumn>
+                    </Columns>
+                </Telerik:LayoutRow>
+
+                <telerik:LayoutRow WrapperCssClass="t-rwd-gray-row" WrapperHtmlTag="Div" RowType="Container">
+                    <Columns>
+                        <telerik:LayoutColumn Span="8">
+                            <div style="height:150px;">
+                            <asp:ImageButton runat="server" ID="hlSponsor" ImageUrl="~/Images/integrisBanner800a.png" Style="box-shadow: 0 5px 20px rgba(0, 0, 0, 1.5);" Width="615" ></asp:ImageButton>
+                            </div>
+                        </telerik:LayoutColumn>
+                       <telerik:LayoutColumn Span="4" CssClass="t-rwd-right">
+                            <telerik:RadRotator ID="RadRotator2" runat="server" Width="290" Height="135px" ScrollDuration="2500" ScrollDirection="Left" FrameDuration="2000" ItemHeight="135" ItemWidth="290" Style="box-shadow: 0 5px 20px rgba(0, 0, 0, 1.5);" >
+                                <Items>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/ads/OSSAAHomeAds01.png"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/ads/OSSAAHomeAds02.png"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/ads/OSSAAHomeAds02a.jpg"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/ads/OSSAAHomeAds02b.jpg"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                    <telerik:RadRotatorItem>
+                                        <ItemTemplate>
+                                            <asp:HyperLink runat="server" ImageUrl="~/Images/ads/OSSAAHomeAds03.png"></asp:HyperLink>
+                                        </ItemTemplate>
+                                    </telerik:RadRotatorItem>
+                                </Items>
+                            </telerik:RadRotator>
+                        </telerik:LayoutColumn>
+                    </Columns>
+                </telerik:LayoutRow>
+                <telerik:LayoutRow WrapperCssClass="t-rwd-gray-row" WrapperHtmlTag="Div" RowType="Container">
+                    <Columns>
+                        <telerik:LayoutColumn Span="8" SpanLg="8" SpanXl="8" SpanMd="12" SpanSm="9" SpanXs="12">
+                            <div id="left01">
+                            <telerik:RadTabStrip ID="RadTabStrip1" runat="server" MultiPageID="RadMultiPage1" SelectedIndex="0" Skin="MetroTouch" RenderMode="Auto" Font-Bold="true" Font-Names="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >
+                                <Tabs>
+                                    <telerik:RadTab Text="NEWS" Selected="true"></telerik:RadTab>
+                                    <telerik:RadTab Text="QUICK LINKS"></telerik:RadTab>
+                                    <telerik:RadTab Text="UPCOMING EVENTS"></telerik:RadTab>
+                                    <telerik:RadTab Text="NFHS"></telerik:RadTab>
+                                </Tabs>
+                            </telerik:RadTabStrip>
+                            <telerik:RadMultiPage runat="server" ID="RadMultiPage1"  SelectedIndex="0" CssClass="innerMultiPage" Style="white-space:normal;">
+                                <telerik:RadPageView runat="server" ID="PageView1">
+                                    <telerik:RadMenu ID="RadMenu1" runat="server" Skin="Bootstrap" Width="100%" Flow="Vertical" Style="white-space:normal;" >
+                                    </telerik:RadMenu>
+                                </telerik:RadPageView>  
+                                <telerik:RadPageView runat="server" ID="RadPageView2">
+                                    <telerik:RadMenu ID="RadMenu2" runat="server" Skin="Bootstrap" Width="100%" Flow="Vertical" Style="white-space:normal;" >
+                                    </telerik:RadMenu>
+                                </telerik:RadPageView>
+                                <telerik:RadPageView runat="server" ID="RadPageView3">
+                                    <telerik:RadMenu ID="RadMenu3" runat="server" Skin="Bootstrap" Width="100%" Flow="Vertical" Style="white-space:normal;" >
+                                    </telerik:RadMenu>
+                                </telerik:RadPageView>
+                                <telerik:RadPageView runat="server" ID="RadPageView4">
+                                    <telerik:RadMenu ID="RadMenu4" runat="server" Skin="Bootstrap" Width="100%" Flow="Vertical" Style="white-space:normal;" >
+                                    </telerik:RadMenu>
+                                </telerik:RadPageView>
+                            </telerik:RadMultiPage>
+                            <br />
+                                <div id="left02">
+                                    <telerik:RadMediaPlayer RenderMode="Lightweight" ID="RadMediaPlayer1" runat="server"
+                                        Height="450px" EnableViewState="false" Width="100%" AutoPlay="false">
+                                        <PlaylistSettings YouTubePlaylist="PLKUIvXI63dVihx1bwyGhBWYyYGUG-cCGC" Mode="Buttons" ButtonsTrigger="Hover" Position="Horizontal" />
+                                    </telerik:RadMediaPlayer>
+                                </div>
+                            </div>
+                        </telerik:LayoutColumn>
+                         <telerik:LayoutColumn Span="4" SpanLg="4" SpanXl="4" HiddenMd="true" HiddenSm="true" HiddenXs="true" CssClass="t-rwd-right">
+                            <div id="right01">
+                                <telerik:RadLinkButton runat="server" ID="cmdCalendar" NavigateUrl="Manual_Calendar.aspx" Text="2018-2020 CALENDAR" Width="90%" Font-Bold="true" Font-Names="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"></telerik:RadLinkButton>
+                                <hr />
+                                <telerik:RadLinkButton runat="server" ID="cmdOSSAARankings" NavigateUrl="http://www.ossaarankings.com" Text="OSSAARANKINGS.COM" Width="90%" Font-Bold="true" Font-Names="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"></telerik:RadLinkButton>
+                                <hr />
+                                <telerik:RadLinkButton runat="server" ID="cmdForTheParents" NavigateUrl="ForTheParents.aspx" Text="FOR THE PARENTS" Width="90%" Font-Bold="true" Font-Names="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"></telerik:RadLinkButton>
+                            </div>
+                        </telerik:LayoutColumn>
+                         <telerik:LayoutColumn Span="4" SpanLg="4" SpanXl="4" HiddenMd="true" HiddenSm="true" HiddenXs="true" CssClass="t-rwd-right" Visible="false">
+                            <div id="right01a">
+                                <telerik:RadCalendar ID="RadCalendar1" runat="server" Width="100%" Skin="Silk" OnSelectionChanged="RadCalendar1_SelectionChanged" AutoPostBack="true" >
+                                    <FastNavigationSettings EnableTodayButtonSelection="true" />
+                                    <CalendarTableStyle BackColor="LightYellow" />
+                                    <DayOverStyle Font-Bold="true" Font-Size="X-Large" />
+                                </telerik:RadCalendar>
+                                <div style="text-align:left;vertical-align:bottom;">
+                                <asp:Label runat="server" ID="lblCalendarDetail" Text="CALENDAR DETAIL" Font-Bold="true" Height="30px"></asp:Label>
+                                </div>
+                                <telerik:RadMenu ID="RadMenuCalendar" runat="server" Skin="Bootstrap" Width="100%" Flow="Vertical" >
+                                    <Items>
+                                        <telerik:RadMenuItem Text="06-05 : Something going on" />
+                                        <telerik:RadMenuItem Text="06-06 : Something else going on" />
+                                    </Items>
+                                </telerik:RadMenu>
+                            </div>
+                        </telerik:LayoutColumn>
+                        <telerik:LayoutColumn Span="4" SpanLg="4" SpanXl="4" SpanMd="12" SpanSm="9" SpanXs="12" CssClass="t-rwd-right">
+                            <br />
+                            <div id="right02">
+                                <a class='twitter-timeline' href='https://twitter.com/OSSAAOnline' data-height='1200'>Tweets by OSSAAOnline</a> <script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script>
+                            </div>
+                        </telerik:LayoutColumn>
+                    </Columns>
+                </telerik:LayoutRow>
+            </Rows>
+    </telerik:RadPageLayout>
+
+</asp:Content>
+

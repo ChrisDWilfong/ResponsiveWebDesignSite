@@ -1,0 +1,245 @@
+﻿        <%@ Master Language="C#" AutoEventWireup="true" CodeFile="MobileSampleSite.master.cs" Inherits="MobileSampleSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P6NSRTN');</script>
+<!-- End Google Tag Manager -->
+    <title>OSSAA.COM (Oklahoma Secondary School Activities Association)</title>
+    <link rel="icon" type="image/ico" href="ossaalogoBlack.ico" />
+	<meta name="viewport" content="width=device-width, intial-scale=1" />
+	<link href="styles/master-page.css" rel="stylesheet" />
+    <link href="../Styles/scroller.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/scroller.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+	<telerik:RadCodeBlock runat="server">
+		<script src="<%= ResolveUrl("scripts/EqatecMonitor.min.js")%>" type="text/javascript"></script>
+	</telerik:RadCodeBlock>
+
+	<script>
+		(function(g) {
+			if(g._eqatecmonitor)
+				return;
+			try {
+				// Create the monitor instance
+				var settings=_eqatec.createSettings("3706ccaf5bf44c67877b8218c8a3e5af");
+				settings.version="1.2.3";
+				var monitor=g._eqatecmonitor=_eqatec.createMonitor(settings);
+				// Start the monitor when your application starts
+				monitor.start();
+			}
+			catch(e) {
+				console.log("Telerik Analytics exception: "+e.description);
+			}
+		})(window);
+	</script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P6NSRTN');</script>
+    <!-- End Google Tag Manager -->
+	<asp:ContentPlaceHolder ID="head" runat="server">
+
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6NSRTN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<form id="form1" runat="server">
+
+		<telerik:RadScriptManager runat="server" ID="RadScriptManager1"></telerik:RadScriptManager>
+		<telerik:RadStyleSheetManager runat="server" ID="RadStyleSheetManager"></telerik:RadStyleSheetManager>
+
+		<telerik:RadAjaxManager runat="server" ID="RadAjaxManagerContentUpdater">
+			<AjaxSettings>
+				<telerik:AjaxSetting AjaxControlID="RadDropDownFontSizePostBack">
+					<UpdatedControls>
+						<telerik:AjaxUpdatedControl ControlID="ContentPlaceHolder1" />
+					</UpdatedControls>
+				</telerik:AjaxSetting>
+			</AjaxSettings>
+		</telerik:RadAjaxManager>
+		<telerik:RadPageLayout runat="server" ID="PageLayoutHeader" HtmlTag="None" GridType="Fluid">
+			<Rows>
+				<telerik:LayoutRow>
+					<Rows>
+						<telerik:LayoutRow CssClass="all-content-wrapper" RowType="Row">
+							<Rows>
+								<telerik:LayoutRow ID="rowHeader" WrapperCssClass="header-wrapper" RowType="Container" WrapperHtmlTag="Div" HiddenXs="true">
+									<Columns>
+										<telerik:LayoutColumn Span="10" SpanLg="10" SpanXl="10" SpanMd="10" SpanSm="10" HiddenXs="true">
+                                            <div class="t-rwd-logo">
+										    <img src="<%= ResolveUrl("Images/OSSAAHeader2020.png") %>"/>
+                                            </div>
+										</telerik:LayoutColumn>
+										<telerik:LayoutColumn Span="2" SpanLg="2" SpanXl="2" SpanMd="2" SpanSm="2" HiddenXs="true" CssClass="t-rwd-try-now-buttons">
+                                            <telerik:RadButton ID="RadButtonMembership" runat="server" ButtonType="LinkButton" NavigateUrl="http://www.ossaarankings.com/membership/MemberLogin.aspx" Skin="MetroTouch" Text="Membership" CssClass="t-rwd-prim" Visible="false"></telerik:RadButton>
+                                            <telerik:RadSocialShare runat="server" ID="RadSocialShareHeader" CssClass="t-rwd-SocialShare" Skin="MetroTouch">
+											    <MainButtons>
+												    <telerik:RadSocialButton UrlToShare="https://www.facebook.com/Oklahoma-Secondary-School-Activities-Association-OSSAA-109962359072309/" TitleToShare="OSSAA on Facebook" SocialNetType="ShareOnFacebook" />
+												    <telerik:RadSocialButton UrlToShare="http://www.twitter.com/OSSAAOnline" TitleToShare="OSSAA on Twitter" SocialNetType="ShareOnTwitter" />
+										        </MainButtons>
+										    </telerik:RadSocialShare>
+								        </telerik:LayoutColumn>
+								    </Columns>
+							    </telerik:LayoutRow>
+
+                                <telerik:LayoutRow ID="rowHeaderM" HiddenLg="true" HiddenXl="true" WrapperCssClass="header-wrapperM" RowType="Row" WrapperHtmlTag="Div">
+                                    <Rows>
+                                        <telerik:LayoutRow>
+                                            <Columns>
+										        <telerik:LayoutColumn Span="12">
+											        <a class="t-rwd-logo" href="Default.aspx">
+												        <img src="<%= ResolveUrl("Images/OSSAAHeader2020.png") %>" alt="OSSAA.com" /></a>
+										        </telerik:LayoutColumn>
+                                            </Columns>
+                                        </telerik:LayoutRow>
+                                    </Rows>
+                                </telerik:LayoutRow>
+
+								<telerik:LayoutRow RowType="Container" WrapperCssClass="menu-wrapper" WrapperHtmlTag="Div" HiddenXl="false" HiddenLg="false" HiddenMd="false" HiddenSm="false" HiddenXs="true">
+									<Rows>
+										<telerik:LayoutRow>
+											<Columns>
+												<telerik:LayoutColumn>
+													<telerik:RadMenu runat="server" ID="RadMenuMain" RenderMode="Classic" Skin="MetroTouch" DataSourceID="SiteMapDataSourceMenu" OnDataBound="RadMenuMain_DataBound">
+													</telerik:RadMenu>
+												</telerik:LayoutColumn>
+											</Columns>
+										</telerik:LayoutRow>
+									</Rows>
+								</telerik:LayoutRow>
+								<telerik:LayoutRow HiddenXl="true" HiddenLg="true" HiddenMd="true" HiddenSm="true" HiddenXs="false" RowType="Generic">
+									<Rows>
+										<telerik:LayoutRow>
+											<Columns>
+												<telerik:LayoutColumn Span="12" HiddenXl="true" HiddenLg="true" HiddenMd="true" HiddenSm="true" HiddenXs="false">
+													<telerik:RadMenu runat="server" ID="RadMenuMainM" RenderMode="Mobile" Skin="MetroTouch" DataSourceID="SiteMapDataSourceMenu" CssClass="t-rwd-menu-mobileNew" OnDataBound="RadMenuMainM_DataBound"
+                                                        Width="750px" Height="2000px" ForeColor="black" Style="padding-left: 40px;">
+                                                        <DefaultGroupSettings Width="500px" />
+                                                     </telerik:RadMenu>
+												</telerik:LayoutColumn>
+											</Columns>
+										</telerik:LayoutRow>
+									</Rows>
+								</telerik:LayoutRow>
+                            </Rows>
+                        </telerik:LayoutRow>
+                    </Rows>
+                </telerik:LayoutRow>
+            </Rows>
+        </telerik:RadPageLayout>
+		<telerik:RadPageLayout runat="server" ID="PageLayoutMaster" HtmlTag="None">
+			<Rows>
+				<telerik:LayoutRow>
+					<Rows>
+						<telerik:LayoutRow CssClass="all-content-wrapper" RowType="Row">
+							<Rows>
+								<telerik:LayoutRow RowType="Container" WrapperCssClass="content-wrapper" WrapperHtmlTag="Div" HtmlTag="None">
+									<Content>
+										<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+										</asp:ContentPlaceHolder>
+									</Content>
+								</telerik:LayoutRow>
+							</Rows>
+						</telerik:LayoutRow>
+
+						<telerik:LayoutRow RowType="Row" WrapperCssClass="footer-content footer-wrapper" WrapperHtmlTag="Div" HiddenXs="true">
+							<Rows>
+								<telerik:LayoutRow>
+									<Columns>
+										<telerik:LayoutColumn Span="12">
+											<telerik:RadSocialShare runat="server" ID="RadSocialShareBottom" Visible="false" CssClass="t-rwd-SocialShare" Skin="MetroTouch">
+												<MainButtons>
+													<telerik:RadSocialButton UrlToShare="https://www.facebook.com/Oklahoma-Secondary-School-Activities-Association-OSSAA-109962359072309/" TitleToShare="OSSAA on Facebook" SocialNetType="ShareOnFacebook" />
+													<telerik:RadSocialButton UrlToShare="http://www.Twitter.com/OSSAAOnline" TitleToShare="OSSAA on Twitter" SocialNetType="ShareOnTwitter" />
+												</MainButtons>
+											</telerik:RadSocialShare>
+										</telerik:LayoutColumn>
+
+										<telerik:LayoutColumn CssClass="t-rwd-rem-pad t-rwd-footer" Span="12">
+											<div class="t-rwd-quick-links">
+												<a onclick="_gaq.push(['_trackEvent', 'footer-nav', 'text', 'Twitter']);" href="https://twitter.com/OSSAAOnline">OSSAA on Twitter</a>
+												<a onclick="_gaq.push(['_trackEvent', 'footer-nav', 'text', 'Facebook']);" href="https://www.facebook.com/Oklahoma-Secondary-School-Activities-Association-OSSAA-109962359072309/">OSSAA on Facebook</a>
+											</div>
+											<p>Copyright  &copy; <asp:Literal runat="server" ID="currentYear"></asp:Literal>, Oklahoma Secondary School Activities Association. All Rights Reserved.</p>
+										</telerik:LayoutColumn>
+									</Columns>
+								</telerik:LayoutRow>
+							</Rows>
+						</telerik:LayoutRow>
+					</Rows>
+				</telerik:LayoutRow>
+			</Rows>
+		</telerik:RadPageLayout>
+
+		<asp:SiteMapDataSource runat="server" ID="SiteMapDataSourceMenu" ShowStartingNode="false" />
+		<asp:SiteMapDataSource runat="server" ID="SiteMapDataSourcePanelBar" StartingNodeUrl="#" ShowStartingNode="false" />
+
+		<script type="text/javascript">
+			var loaded=false;
+
+			function pageLoad() {
+				if(!loaded) {
+					var socialShareHeader=$find("<%=RadSocialShareHeader.ClientID%>"),
+                        socialShareBottom=$find("<%=RadSocialShareBottom.ClientID%>");
+
+                    /**
+					if(socialShareHeader) {
+						addGooglePlusOneButton(socialShareHeader);
+					}
+
+					if(socialShareBottom) {
+						addGooglePlusOneButton(socialShareBottom);
+					}
+                    **/
+
+					loaded=true;
+				}
+
+				if(typeof gridPage!="undefined") {
+					var editZone=$telerik.$(".rgEditForm");
+					if(editZone.length) {
+						var formDecorator=$find(formDecoratorId);
+						formDecorator.set_decoratedControls(Telerik.Web.UI.FormDecoratorDecoratedControls.All);
+						formDecorator.set_decorationZoneID($telerik.$(".rgEditForm")[0].id);
+						formDecorator.decorate();
+					}
+				}
+			}
+
+			function addGooglePlusOneButton(socialShare) {
+				var element=socialShare._element,
+                    googlePlusElement=$telerik.$("<li class='sshListItem'><a class='sshLinkItem' title='Share on GooglePlus' href='javascript:void(0)' onclick='shareWithGooglePlus()'><span class='sshIcon sshGooglePlus'></span></a></li>");
+
+				$telerik.$(element).find(".sshContent").append(googlePlusElement);
+			}
+
+			function onClientClickFeedback(sender,args) {
+				_gaq.push(['_trackPageview','/virtual/ajax-responsive-sample-app/feedback-portal']);
+			}
+
+			function shareWithGooglePlus() {
+				window.open("https://plus.google.com/share?url=http://tlrk.it/1cTHGQp","_blank","toolbar=yes, scrollbars=yes, resizable=yes, width=400, height=500");
+			}
+		</script>
+
+	</form>
+</body>
+</html>
