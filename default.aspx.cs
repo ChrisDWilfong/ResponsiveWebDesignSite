@@ -11,7 +11,7 @@ public partial class ResponsiveWebDesignOverview : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
- 
+		// Test change
         //string strClass;
         string strHL;
         var strSQL = "";
